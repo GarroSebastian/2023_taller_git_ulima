@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rowdies', cursive;
+    
+}
+
+.container
+{
+    
 }
 
 section
@@ -11,6 +17,7 @@ section
     padding: 20px;
     width: 1280px;
     margin: 40px auto;
+    background-color: peru;
 }
 h1
 {
@@ -26,7 +33,7 @@ section ul
 section ul li
 {
     list-style: none;
-    background: peru;
+    background: whitesmoke;
     padding: 8px 20px;
     margin: 5px;
     letter-spacing: 1px;
@@ -70,10 +77,11 @@ section ul li.active
 .btn
 {
     margin-bottom: 15px;
-    
+   
 }
 
-.btn
+.texto btn
 {
     background-color: gray;
 }
+

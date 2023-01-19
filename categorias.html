@@ -12,11 +12,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/categorystyle.css">
+    <link rel="stylesheet" href="/style2.css">
 </head>
 
 
 
 <body class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <a href="/landpage.html"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Universidad_de_Lima_logo.png" alt="Bootstrap" width="50" height="50"></a>
+              </a>
+            </div>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    CARRITO
+                  </a>
+                </div>
+              </nav>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+            <nav class="navbar bg-body-tertiary">
+              <form class="container-fluid justify-content-start">
+                <a class="btn btn-primary" href="/login.html" role="button">Log In</a>
+
+              </form>
+            </nav>
+          </div>
+        </div>
+      </nav>
     <section>
         <h1>Restaurantes</h1>
         <ul>
@@ -54,7 +102,7 @@
             </button>
             <button type="button" class="itemBox">
                 <img src="/logos restaurantes/Marianne.png"/>
-                <div class = "texto btn" style="background-color: green">Marianne</div>
+                <div class = "texto btn" style="background-color: gray">Marianne</div>
             </button>
             
 
@@ -62,9 +110,7 @@
     </section>
     <div>
     </div>
-    <a href="/login.html">
-        <button type="button">Atrás</button>
-    </a>
+    
 </body>
 
 </html>
