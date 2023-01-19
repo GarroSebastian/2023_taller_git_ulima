@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     background: peru;
@@ -17,23 +17,33 @@ body {
     height: min-content;
     padding: 20px;
     border-radius: 12px;
-    background: whitesmoke;
+    background: whitesmoke;    
+    margin-top: 150px;
+    margin-left: 800px;
+    margin-right: 800px;
 }
 
-.login h1 {
+.login h2 {
     font-size: 36px;
     margin-bottom: 25px;
 }
 
 .login form{
     font-size: 20px;
-}
+    
+}   
 
 .login form .form-group {
     margin-bottom: 12px;
+    
 }
 
 .login form input[type="submit"]{
     font-size: 20px;
     margin-top: 15px;
+}
+
+.navbar
+{
+    display: flex;
 }
