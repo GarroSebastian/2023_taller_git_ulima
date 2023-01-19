@@ -12,11 +12,58 @@
 
 </head>
 
-<body>
+<body class>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Universidad_de_Lima_logo.png" alt="Bootstrap" width="50" height="50">
+              </a>
+            </div>
+          </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    CARRITO
+                  </a>
+                </div>
+              </nav>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+            <nav class="navbar bg-body-tertiary">
+              <form class="container-fluid justify-content-start">
+                <a class="btn btn-primary" href="/login.html" role="button">Log In</a>
 
-    <div class="login">
-        <h1 class="text-center">¡Bienvenido!</h1>
-        <form class="needs-validation">
+              </form>
+            </nav>
+          </div>
+        </div>
+      </nav>
+      <div class="login">
+        <h2 class="text-center">¡Bienvenido!</h2>
+        
+            <form class="needs-validation">
 
             <div class="form-group was-validated">
                 <label class="form-label" for="email">Correo Electrónico</label>
@@ -43,6 +90,7 @@
                 <input class="btn btn-success w-100" value="Iniciar Sesión">
             </a>
         </form>
+    
     </div>
 
 </body>
